@@ -6,7 +6,7 @@ A company rents bikes under following options:
 3. Rental by week, changing $60 a week
 4. Family Rental, is a promotion that can include from 3 to 5 Rentals (of any type) with a discount of 30% of the total price
  
-#Design
+# Design
 I used the main class Bike Rental to manage the Rental types that the customer wants in that moment.
 To get a new rental for a bike, the rental type, that could be per hour, per day or per week, is added on the Bike Rental main class, and then the price is calculated.
 
@@ -14,10 +14,10 @@ When a type is created (hour, day or week) also is possible to add the amount of
 
 In the bike rental main class is possible to add a kind of promotion to be applied to all rentals that the customer is buying.
 
-#Development practice
+# Development practice
 The application is based on OOP, I used a strategy pattern to applied the different types of rentals
 
-#Project dependecies
+# Project dependecies
 
 node version 6.11.0
 
